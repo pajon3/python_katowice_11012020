@@ -1,0 +1,20 @@
+x = int(input("Podaj pierwszą liczbę :"))
+y = int(input("Podaj drugą  liczbę :"))
+a = input("Podaj działanie (+,-,*,/) :")
+
+if a == "+":
+     wynik = (x+y)
+elif a=="-":
+    wynik =(x-y)
+elif a=="/":
+    #beg for foregivnes
+    try:
+        wynik = (x / y)
+    except ZeroDivisionError:
+        wynik = "Nie dzielimy przez zero"
+
+
+elif a=="*":
+    wynik =(x*y)
+
+print(round(wynik,2))

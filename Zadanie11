@@ -1,0 +1,25 @@
+x = int(input("Podaj pozycję gracza X :"))
+y = int(input("Podaj pozycję gracza Y :"))
+
+if any([x>100, x<0, y>100, x<0]):
+    wynik = "Jesteś poza planszą"
+elif (x>=90 and y>=90):
+    wynik = "Jesteś w prawym, górnym rogu planszy"
+elif (x <= 10 and y <= 10):
+    wynik = "Jesteś w lewym, dolnym rogu planszy"
+elif (x >= 90 and y <= 10):
+    wynik = "Jesteś w prawym, dolnym rogu planszy"
+elif (x <= 10 and y >= 90):
+    wynik = "Jesteś w lewym, górnym rogu planszy"
+elif ( x >= 90):
+    wynik = "Jesteś na prawej krawędzi"
+elif ( x <= 10):
+    wynik = "Jesteś na lewej krawędzi"
+elif ( y >= 90):
+    wynik = "Jesteś na górnej krawędzi"
+elif ( x <= 10):
+    wynik = "Jesteż na dolnej krawędzi"
+else:
+    wynik = "centrum"
+
+print(wynik)

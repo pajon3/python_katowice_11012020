@@ -1,0 +1,10 @@
+Miasto_A = input("Podaj Miasto A: ")
+Miasto_B = input("Podaj Miasto B: ")
+Dystans = input("Dystans "+Miasto_A+"-"+ Miasto_B+": ")
+cena_paliwa = input("Cena paliwa: ")
+spalanie = input("Podaj spalanie: ")
+koszt = str(int(spalanie)*int(Dystans)*int(cena_paliwa)/100)
+print()
+
+print("Koszt przejazdu "+Miasto_A+"-"+Miasto_B+" to " + koszt+" PLN")
+#print(f("Koszt przejazdu {Miasto_A} - {Miasto_B} to {koszt} PLN")
