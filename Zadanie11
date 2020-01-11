@@ -20,6 +20,6 @@ elif ( y >= 90):
 elif ( x <= 10):
     wynik = "Jesteż na dolnej krawędzi"
 else:
-    wynik = "centrum"
+    wynik = "jesteś w centrum"
 
 print(wynik)
