@@ -1,0 +1,8 @@
+instalacja gita lokalnia
+nowe repozytorium
+git init
+tworzymy plik.gitignore i zapisujemy co chcemy ignorować
+
+git add . dodać wszystkie nieignorowane
+
+git commit - m
