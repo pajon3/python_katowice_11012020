@@ -1,5 +1,5 @@
 
-def is_anagram(a,b):
+def is_anagram(a, b):
 
     a = a.lower()
     b = b.lower()
@@ -12,5 +12,5 @@ def is_anagram(a,b):
 
 
 def test_is_anagram():
-    assert is_anagram("Tokio", "Kioto") == True
-    assert is_anagram("Petersburg", "Moskwa") == False
+    assert is_anagram("Tokio", "Kioto") is True
+    assert is_anagram("Petersburg", "Moskwa") is False
