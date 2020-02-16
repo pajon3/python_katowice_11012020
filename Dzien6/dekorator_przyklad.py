@@ -1,0 +1,3 @@
+
+
+def squares(n)j
