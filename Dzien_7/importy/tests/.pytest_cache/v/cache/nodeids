@@ -1,0 +1,6 @@
+[
+  "test_geometry.py::test_square_area",
+  "test_geometry.py::test_trianggle_area",
+  "test_algebra.py::test_add_matrices",
+  "test_algebra.py::test_sub_matrices"
+]

@@ -1,0 +1,5 @@
+przejrze� zadaniee 2 - odwzorowa� ca�e z gita i powt�rzy� lambde
+
+powt�rzy� args i qargs
+
+3 też sobie porównaj
