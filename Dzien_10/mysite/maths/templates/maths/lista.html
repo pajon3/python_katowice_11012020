@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .border {border: 1px solid grey;}
+</style>
+<ul>
+    {% for el in elements %}
+    {% if el == 3 %}
+    <li class="border">{{ el }}</li>
+    {% else %}
+    <li>{{ el }}</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endblock %}
